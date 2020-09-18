@@ -158,7 +158,7 @@ Pod::Spec.new do |spec|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
-  spec.user_target_xcconfig  = { 'OTHER_LDFLAGS' => "-force_load ${BUILT_PRODUCTS_DIR}/#{spec.name}/lib#{spec.name}.a" }
+  #spec.user_target_xcconfig  = { 'OTHER_LDFLAGS' => "-force_load ${BUILT_PRODUCTS_DIR}/#{spec.name}/lib#{spec.name}.a" }
 
   spec.requires_arc = true
 
